@@ -46,7 +46,6 @@ body {
     padding-left: 39px; */
 }
 .hero-s{
-    width:100% ;
     height: 550px;
     overflow: hidden;
     display: flex;
@@ -109,8 +108,8 @@ body {
 }
 /* ----------------LOGO_LIST-------------------------- */
 .logo-list {
-   padding: 25px;
     color: #373737;
+    margin-top: 30px;
 }
 .logo-list h2{
     text-transform: uppercase;
