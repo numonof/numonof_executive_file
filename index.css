@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.header-right {
+    display: flex;
+    list-style: none; 
+}
+.header-right li a{
+    margin: 15px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #373737;
+   
+    text-decoration: none;
+}
+.menu:hover{
+    border-bottom: 4px solid #717CFF ;
+}
+.active{
+    border:2px solid #717CFF;
+    border-radius: 11px;
+     padding: 10px 40px;
+    /* padding-top: 13px;
+    padding-right: 35px;
+    padding-bottom: 16px;
+    padding-left: 39px; */
+}
+.hero-s{
+    width:100% ;
+    height: 550px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.h-left{
+    width: 600px;
+    padding: 50px;
+    height: 400px;
+  
+}.h-right{
+    width: 600px;
+    
+    padding-top: 70px;
+    padding: 70px;
+}
+.h-right h1{
+    width:500px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 66px;
+}
+.h-right span{
+ color: #717CFF;
+}
+
+.h-right p{
+    line-height: 38px;
+    width:90%;
+    font-size: 22px; 
+    color: #7D7D7D;
+}
+.h-right a{
+    width: 200px;
+    height: 50px;
+    color:#fff;
+    box-shadow: -7px -1px 5px rgba(0, 0, 0, 0.50);
+    background: #717CFF;
+    border-radius: 11px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+}
+.h-right a i{
+    color: #000;
+    width: 15px;
+    height: 15px;     
+}
+.bxl{
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+}
+.bx{
+    width: 31px;
+    height: 31px;
+    margin: 10px;
+}
+/* ----------------LOGO_LIST-------------------------- */
+.logo-list {
+   padding: 25px;
+    color: #373737;
+}
+.logo-list h2{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+  
+  
+ul{
+  list-style: none; 
+}
+  
+.logo-title{
+   text-align: center;
+}
+  
+.logo-content{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+.lg-sp-btn{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ac-sp-btn{
+    margin: 15px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #717CFF;
+}
+.sp-btn {
+    margin: 15px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(124, 124, 124, 0.318837);
+}
+/* -----------------------------SERVICES----------------------- */
+.s-container{
+    padding: 35px;
+    background-color:  #F2F2F2;;
+}
+.s-title h2 {
+    font-weight: bold;
+    text-align: center;
+    font-family: serif;
+    font-size: 37px;
+    padding-top: 50px;
+    color: #373737;
+}.s-title p{
+    width: 815px;
+    justify-content: center;
+    text-align:center;
+    font-size: 21px;
+    padding: 15px;
+    margin-left: 180px;
+    color:#7d7d7d;
+    line-height: 35px;
+}
+.s-b-icon{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background: #37474F;
+    padding: 5px;
+}
+.s-box-top{
+    display: flex;
+    flex-flow: wrap ;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 30px 10px;
+}
+.card{
+    width: 350px;
+    height: 100%;
+    padding: 20px;
+    background-color:#ffff;
+    align-items: center;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px; 
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #37474F;
+}
+.s-box-bottom{
+    display: flex;
+    flex-flow: wrap ;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 170px 0 170px;
+}
+.card-text{
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(55, 71, 79, 0.721569);
+
+}
+
+.n-title h2 {
+    font-weight: bold;
+    text-align: center;
+    font-family: serif;
+    font-size: 37px;
+    padding-top: 50px;
+    color: #373737;
+}
+.n-title p{
+    width: 850px;
+    justify-content: center;
+    text-align:center;
+    font-size: 21px;
+    padding: 15px;
+    margin-left: 180px;
+    color:#7d7d7d;
+    line-height: 35px;
+}
+.n-box{
+    display: flex;
+    flex-flow: wrap ;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
