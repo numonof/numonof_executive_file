@@ -53,6 +53,9 @@ a{
     padding-left: 39px; */
 }
 /* -----------------------HOME------------- */
+#home{
+    background: #F2F2F2;
+}
 .hero-s{
     height: 550px;
     overflow: hidden;
@@ -91,7 +94,7 @@ a{
     width: 200px;
     height: 50px;
     color:#fff;
-    box-shadow: -7px -1px 5px rgba(0, 0, 0, 0.50);
+
     background: #717CFF;
     border-radius: 11px;
     display: flex;
@@ -115,10 +118,15 @@ a{
     margin: 10px;
 }
 /* ----------------LOGO_LIST-------------------------- */
+#about{
+    background-color: #FAFAFA;
+}
 .logo-list {
+    padding: 25px;
+    padding-top: 30px;
     text-align: center;
     color: #373737;
-    margin-top: 30px;
+
 }
 .logo-list h2{
     text-transform: uppercase;
@@ -139,7 +147,7 @@ ul{
     justify-content: center;
 }
 .ac-sp-btn{
-    margin: 15px;
+    margin: 5px;
     display: block;
     width: 15px;
     height: 15px;
@@ -147,7 +155,7 @@ ul{
     background: #717CFF;
 }
 .sp-btn {
-    margin: 15px;
+    margin: 10px;
     display: block;
     width: 10px;
     height: 10px;
@@ -155,9 +163,9 @@ ul{
     background: rgba(124, 124, 124, 0.318837);
 }
 /* -----------------------------SERVICES----------------------- */
-.s-container{
+.services{
     padding: 35px;
-    background-color:  #F2F2F2;;
+    background: #F2F2F2;
 }
 .s-title h2 {
     font-weight: bold;
@@ -220,8 +228,9 @@ ul{
 
 }
 /* ----------------------------------------NEW--------------------------------- */
-.new-container{
+#new{
     padding-bottom:90px;
+    background: #FAFAFA;
 }
 .new-title h2 {
     font-weight: bold;
@@ -279,9 +288,22 @@ ul{
      font-weight: 500;
 }
 /* ------------------------------Upcoming University Events----------------- */
-.unver-container{
-    padding: 35px;
-    background-color:  #F2F2F2;;
+#responsibility{
+    background: #F2F2F2;
+    padding-top: 60px;
+}
+.date-time{
+    width: 76px;
+    height: 76px;
+    border-radius: 11px;
+    padding: 10px 22px 34px 22px;
+    justify-content: center;
+    margin: 15px;
+    font-size: 22px;
+    align-items: center;
+    color: 
+    #717CFF;
+    background: #3c4bf023;
 }
 .uni-container{
     display: flex;
@@ -328,10 +350,10 @@ ul{
     font-size: 500;
 }
 /* -----------------------countries ------------------------*/
-.countries{
-    padding: 35px;
-    background-color:  #F2F2F2;   
-}
+#countries{
+    padding: 35px; 
+background: #FAFAFA;}
+
 .coun-title h2 {
     font-weight: bold;
     text-align: center;
@@ -368,17 +390,48 @@ ul{
 .caun-card img{
     width: 348px;
 }
-.caun-card-title{margin-top: -25px;
-
+.caun-card-title{
+    margin-top: -25px;
     padding: 30px;
 }
+#univer{
+    background: #FFFFFF;
+}
+#wow{
+    padding-top: 60px;
+    background: #FAFAFA;
+     align-items: center;
+    justify-content:space-between;
+    
+}
+#wow .container{
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+}
+.wow-post{
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 43px;
+    color: #252525;
+}
+.wow-link a{
+    
+    padding: 12px 35px 12px 34px;
+    color: #FFFFFF;
+    background: #717CFF;
+    border-radius: 11px;
+}
+#footer{
 
+    background: #717CFF;
+}
 .footer{
     height: 346px;
     background-color: #717CFF;
     align-items: center;
     justify-content: space-between;
-    padding: 55px;
+  
     margin: 25px;
     display: flex;
 }
