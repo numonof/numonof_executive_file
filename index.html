@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--------icon slinks-->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
     <!-- ------style css-->
     <link rel="stylesheet" href="./index.css">
     <title>Document</title>
@@ -18,17 +21,17 @@
         <!---------Navbar------------->
         <a class="header-left" href="#"><img src="./img/logo/Bitmap.jpg" alt=""></a>
         <ul class="header-right">
-            <li><a class="menu" href="#">Home</a></li>
-            <li><a class="menu" href="#">About as</a></li>
-            <li><a class="menu" href="#">Services</a></li>
-            <li><a class="menu" href="#">Responsibilities</a></li>
-            <li><a class="menu" href="#">Country</a></li>
-            <li><a class="active" href="#">Apply</a></li>
+            <li><a class="menu" href="#home">Home</a></li>
+            <li><a class="menu" href="#about">About as</a></li>
+            <li><a class="menu" href="#services">Services</a></li>
+            <li><a class="menu" href="#responsibility">Responsibilities</a></li>
+            <li><a class="menu" href="#country">Country</a></li>
+            <li><a class="active" href="#apply">Apply</a></li>
         </ul>
     </div>
     <main>
         <!---------------------HOME----------------->
-        <section id="Home">
+        <section id="home">
             <div class="hero-s  container ">
                 <!---------------HERO_SECTION_RIGHT---->
                 <div class=" row h-right">
@@ -42,7 +45,7 @@
                     </p>
                     <!-------------------h-s-btn------------>
                     <a href="#">Apply online <i class='bx bx-right-arrow-alt'></i></a>
-
+                    
                     <div class="bxl">
                         <i class='bx bxl-facebook'></i>
                         <i class='bx bxl-twitter'></i>
@@ -56,29 +59,29 @@
             </div>
         </section>
         <!---------------LOGO_LIST ----------->
-        <section class="logo-list">
+        <section id="about" class="logo-list">
             <div class="container">   
-            <!-----------logo-title------>
-            <h2 class="logo-title">Featured Universities</h2>
-            <!-- -->
-            <div class="row">
-                <ul class="logo-content">
-                    <li><img src="img/logo/Bitmap_1.png" alt="Bitmap" width="250px" height="63.95px"></li>
-                    <li><img src="img/logo/Bitmap_2.png" alt="Bitmap" width="250px" height="63.95px"></li>
-                    <li><img src="img/logo/Bitmap_3.png" alt="Bitmap" width="250px" height="63.95px"></li>
-                    <li><img src="img/logo/Bitmap_4.png" alt="Bitmap" width="250px" height="63.95px"></li>
-                </ul>
-            </div>
-            <div class="lg-sp-btn" display="flex" align-items="center" justify-content="center">
-                <span class="ac-sp-btn"></span>
-                <span class="sp-btn"></span>
-                <span class="sp-btn"></span>
-                <span class="sp-btn"></span>
-            </div>
+                <!-----------logo-title------>
+                <h2 class="logo-title">Featured Universities</h2>
+                <!-- -->
+                <div class="row">
+                    <ul class="logo-content">
+                        <li><img src="img/logo/Bitmap_1.png" alt="Bitmap" width="250px" height="63.95px"></li>
+                        <li><img src="img/logo/Bitmap_2.png" alt="Bitmap" width="250px" height="63.95px"></li>
+                        <li><img src="img/logo/Bitmap_3.png" alt="Bitmap" width="250px" height="63.95px"></li>
+                        <li><img src="img/logo/Bitmap_4.png" alt="Bitmap" width="250px" height="63.95px"></li>
+                    </ul>
+                </div>
+                <div class="lg-sp-btn" display="flex" align-items="center" justify-content="center">
+                    <span class="ac-sp-btn"></span>
+                    <span class="sp-btn"></span>
+                    <span class="sp-btn"></span>
+                    <span class="sp-btn"></span>
+                </div>
             </div>
         </section>
         <!-- -----------HOME END------- -->
-
+        
         <!-- ------------SERVICES---------------- -->
         <section id="services">
             <div class="container s-container">
@@ -88,89 +91,278 @@
                     <!-- services post -->
                     <p>Executive Trade International is an University Application Centre, guiding Bangladeshi students
                         to Australian, British, Canadian and Irish universities!</p>
-                </div>
-                <!----------services card------------->
-                <div class="row s-box-top">
-                    <div class="card">
-                        <img src="./img//card_png/icon.svg" alt="">
-                        <h5 class="card-title">Career Counselling</h5>
-                        <p class="card-text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut.
-                            Blanditiis quos in minus. Voluptatum </p>
-                        <a href="#" class="card-link">Learn More</a>
-                        <i class='bx bx-right-arrow-alt'></i>
                     </div>
-
-                    <div class="card">
-                        <img src="./img//card_png/icon_2.svg" alt="">
-                        <h5 class="card-title">Career Counselling</h5>
-                        <p class="card-text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut.
-                            Blanditiis quos in minus. Voluptatum </p>
-                        <a href="#" class="card-link">Learn More</a>
-                        <i class='bx bx-right-arrow-alt'></i>
-                    </div>
+                    <!----------services card------------->
+                    <div class="row s-box-top">
+                        <div class="card">
+                            <img src="./img//card_png/icon.svg" alt="">
+                            <h5 class="card-title">Career Counselling</h5>
+                            <p class="card-text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut.
+                                Blanditiis quos in minus. Voluptatum </p>
+                                <a href="#" class="card-link">Learn More</a>
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </div>
+                            
+                            <div class="card">
+                                <img src="./img//card_png/icon_2.svg" alt="">
+                                <h5 class="card-title">Career Counselling</h5>
+                                <p class="card-text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut.
+                                    Blanditiis quos in minus. Voluptatum </p>
+                                    <a href="#" class="card-link">Learn More</a>
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                </div>
+                                
+                                <div class="card">
+                                    <img src="./img/card_png/icon_3.svg" alt="">
+                                    <h5 class="card-title">Career Counselling</h5>
+                                    <p class="card-text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut.
+                                        Blanditiis quos in minus. Voluptatum </p>
+                                        <a href="#" class="card-link">Learn More</a>
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                    </div>
+                                </div>
+                                <!-- ----------------------------box-bottom------------ -->
+                                <div class="s-box-bottom">
+                                    <div class="card">
+                                        <img src="./img/card_png/icon_4.svg" alt="">
+                                        <h5 class="card-title">Career Counselling</h5>
+                                        <p class="card-text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut.
+                                            Blanditiis quos in minus. Voluptatum </p>
+                                            <a href="#" class="card-link">Learn More</a>
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                        </div>
+                                        
+                                        <div class="card">
+                                            <img src="./img/card_png/icon_5.svg" alt="">
+                                            <h5 class="card-title">Career Counselling</h5>
+                                            <p class="card-text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut.
+                                                Blanditiis quos in minus. Voluptatum </p>
+                                                <a href="#" class="card-link">Learn More</a>
+                                                <i class='bx bx-right-arrow-alt'></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!-- ------------------------NEWS -------------------->
+                            <section>
+                                <div class="container">
+                                    <div class="new-container">
+                                        <!-- News title---------- -->
+                                        <div class="row new-title">
+                                            <h2>News</h2>
+                                            <!-- New post -->
+                                            <p>Sunt autem nusquam hoc epicurus in gravissimo bello animadversionis metu degendae praesidia firmissima. Torquatos nostros? quos tu paulo ante cum teneam sententiam, quid bonum esse vult.</p>
+                                        </div>
+                                        <!----------News card------------->
+                                        <div class="new-box">
+                                            <div class="n-card">
+                                                <!-----------------------new card img 1-------- -->
+                                                <img src="./img/News/Rectangle_1.svg" alt="">
+                                                <!-----------------------------new card titile- 1---------- -->
+                                                <div class="new-card-title">
+                                                    <i class='bx cal bx-calendar-week'></i>
+                                                    <time datetime="2020-04-17">17 Apr 2020</time>
+                                                </div>
+                                                <h5 class="card-title">Come On In. The Water’s Fine (Mostly).</h5>
+                                            </div>
+                                            <div class="n-card">
+                                                <!-----------------------new card img 1--------------------------->
+                                                <img src="./img/News/Rectangle_2.svg" alt="">
+                                                <!-----------------------------new card titile- 2---------- -->
+                                                <div class="new-card-title">
+                                                    <i class='bx cal bx-calendar-week'></i>
+                                                    <time datetime="2020-04-17">17 Apr 2020</time>
+                                                </div>
+                                                <h5 class="card-title">Come On In. The Water’s Fine (Mostly).</h5>
+                                            </div>
+                                            <div class="n-card">
+                                                <!-----------------------new card img 3------------------ -->
+                                                <img src="./img/News/Rectangle_3.svg" alt="">
+                                                <!-- ------------------------new card title 3 -->
+                                                <div class="n-card-title">
+                                                    <i class='bx cal bx-calendar-week'></i>
+                                                    <time datetime="2020-04-17">17 Apr 2020</time>
+                                                </div>
+                                                <h5 class="card-title">Come On In. The Water’s Fine (Mostly).</h5>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <!------------------------------------------NEW END------------------------->
+                            <section id="responsibility">
+                                <div class="container">
+                                    <div class="univer-container">
+                                        <!-- services title---------- -->
+                                        <div class="row unver-title">
+                                            <h2>Upcoming University Events</h2>
+                                            <!-- services post -->
+                                            <p>Sunt autem nusquam hoc epicurus in gravissimo bello animadversionis metu degendae praesidia firmissima. Torquatos nostros? quos tu paulo ante cum teneam sententiam, quid bonum esse vult.</p>
+                                        </div>
+                                        <!-- ---------------Upcoming University Events------------- -->
+                                        <div class="uni-container">
+                                            <!-------------------------uni card 1--------------------->
+                                            <div class="uni-card">
+                                                <!-----------------------------uni-card-title------------->
+                                                <div class="uni-card-title">
+                                                    <time  datetime="2020-04-17">23 Dec</time>
+                                                    <h5 class="card-title">Macquarie University, Sydney, Australia</h5>
+                                                </div>
+                                                <!--------------------------uni-card-post------------------->
+                                                <p class="card-text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus. Voluptatum quia quia voluptas voluptatem vero ex possimus. I </p>
+                                                <a href="#" class="card-link">Learn More</a>
+                                                <i class='bx bx-right-arrow-alt'></i>
+                                            </div>
+                                            
+                                            <div class="uni-card">
+                                                <!-------------------------uni card 2--------------------->
+                                                <div class="uni-card-title">
+                                                    <!-----------------------------uni-card-title------------->
+                                                    <time datetime="2020-04-17">17 Dec</time>
+                                                    <h5 class="card-title">Federation University, Australia</h5>
+                                                </div>
+                                                <p class="card-text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus. Voluptatum quia quia voluptas voluptatem vero ex possimus. </p>
+                                                <a href="#" class="card-link">Learn More</a>
+                                                <i class='bx bx-right-arrow-alt'></i>
+                                            </div>
+                                        </div>
+                                        <div class="lg-sp-btn" display="flex" align-items="center" justify-content="center">
+                                            <span class="ac-sp-btn"></span>
+                                            <span class="sp-btn"></span>
+                                            <span class="sp-btn"></span>
+                                            <span class="sp-btn"></span>
+                                        </div>
+                                    </div> 
+                                    <!---------------------------------uni-container end--------------- -->
+                                </div>
+                            </section>
+                            <!-- ---------------------------------Countries------------------------->
+                            <section>
+                                <div class="container">
+                                    <div class="countries">
+                                        <!-- countries title---------- -->
+                                        <div class="row coun-title">
+                                            <h2>Countries We Covered</h2>
+                                            <!---------------------------countries post ----------------->
+                                            <p>Sunt autem nusquam hoc epicurus in gravissimo bello animadversionis metu degendae praesidia firmissima. Torquatos nostros? quos tu paulo ante cum teneam sententiam, quid bonum esse vult.</p>
+                                        </div>
+                                        <!----------services card------------->
+                                        <div class="row coun-box">
+                                            <div class="caun-card">
+                                                <img src="./img/coun/Rectangle Copy 4.svg" alt="">
+                                                <div class="caun-card-title">
+                                                    <h5 class="card-title">Career Counselling</h5>
+                                                    <p class="card-text">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi </p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="caun-card">
+                                                <img src="./img/coun/Rectangle Copy 4.svg" alt="">
+                                                <div class="caun-card-title">
+                                                    <h5 class="card-title">Career Counselling</h5>
+                                                    <p class="card-text">Ut aut corporis accusantiu
+                                                        m illo ullam qui laudantium. Maxime rerum sunt et sequi </p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="caun-card">
+                                                <img src="./img/coun/Rectangle Copy 4.svg" alt="">
+                                                <div class="caun-card-title">
+                                                    
+                                                    <h5 class="card-title">Career Counselling</h5>
+                                                    <p class="card-text">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="lg-sp-btn" display="flex" align-items="center" justify-content="center">
+                                            <span class="ac-sp-btn"></span>
+                                            <span class="sp-btn"></span>
+                                            <span class="sp-btn"></span>
+                                            <span class="sp-btn"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            
+                            
+                            <section>
+                                <div class="container un-container">
+                                    <!-- services title---------- -->
+                                    <div class="row unver-title">
+                                        <h2>Testimonial</h2>
+                                        <!-- services post -->
+                                        <p>Torquem detraxit hosti et quidem faciunt, ut et negent satis esse appetendum, alterum. Si sine causa? quae fuerit causa, mox videro; interea hoc epicurus in liberos.</p>
+                                    </div>
+                                    <!-- ---------------Upcoming University Events------------- -->
+                                    <div class="uni-container">
+                                        <div class="uni-card">
+                                            <div class="uni-card-title">
+                                                <img src="img/coun/Rectangle.png" alt="">
+                                                <h5 class="card-title">Macquarie University, Sydney, Australia</h5>
+                                            </div>
+                                            <p class="card-text">Nisi cumque in necessitatibus molestiae eaque excepturi ab. Laboriosam ipsam voluptatem voluptatibus labore quam nihil. Quasi occaecati quos ratione quia aut molestiae velit et. Voluptatem id ea dicta inventore et quo impedit I </p>
+                                        </div>
+                                        
+                                        <div class="uni-card">
+                                            <div class="uni-card-title">
+                                                <img src="img/coun/Rectangle (1).png" alt="">
+                                                <h5 class="card-title">Federation University, Australia</h5>
+                                            </div>
+                                            <p class="card-text">Aut consectetur voluptas. Voluptatem minus quo voluptas in nulla iste. Fugiat alias sit sed dolorem quo. Qui praesentium et doloribus minima neque. Facere debitis sed est suscipit velit reprehenderit. Dolores aliquid dolore consequuntur ex.</p>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                    <div class="lg-sp-btn" display="flex" align-items="center" justify-content="center">
+                                        <span class="ac-sp-btn"></span>
+                                        <span class="sp-btn"></span>
+                                        <span class="sp-btn"></span>
+                                        <span class="sp-btn"></span>
+                                    </div>
+                                </div>
+                            </section>
+                            
+                            <section>  
+                                <div class="container">
+                                    <div class="footer">
+                                        <div class="row blok">
+                                            <a href="#"><img src="./img/logo/ETI-Logo.svg" alt="logo"></a>
+                                            <div class="footer-text">
+                                                Concord Royal Court (3rd floor) <br>
+                                                Dhanmondi, Dhaka 1209, Bangladesh.
+                                            </div>
+                                            <div class="footer-date">
+                                                © 2020 Executive Trade International.
+                                            </div>
+                                        </div>
+                                        <div class="row blok">
+                                            <ul class="footer-link">
+                                                <li><a class="menu" href="#about">About as</a></li>
+                                                <li><a class="menu" href="#services">Services</a></li>
+                                                <li><a class="menu" href="#responsibility">Responsibilities</a></li>
+                                                <li><a class="menu" href="#contact">Services</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="row blok">
+                                            <p>
+                                                Disclaimer <br>
+                                                Testimonials <br>
+                                                Privacy Policy <br>
+                                                Terms of Service <br>
+                                            </p>
+                                        </div>
+                                        <div class="blok footer-bx">  
+                                            <i class='bx bxl-facebook' style='color:#FFFFFF;'  ></i>
+                                            <i class='bx bxl-twitter'style='color:#FFFFFF'></i>
+                                            <i class='bx bxl-instagram-alt' style='color:#FFFFFF' ></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </section>
+                        </main>
+                    </body>
                     
-                    <div class="card">
-                        <img src="./img/card_png/icon_3.svg" alt="">
-                        <h5 class="card-title">Career Counselling</h5>
-                        <p class="card-text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut.
-                            Blanditiis quos in minus. Voluptatum </p>
-                        <a href="#" class="card-link">Learn More</a>
-                        <i class='bx bx-right-arrow-alt'></i>
-                    </div>
-                </div>
-                <!-- ----------------------------box-bottom------------ -->
-                <div class="s-box-bottom">
-                    <div class="card">
-                        <img src="./img/card_png/icon_4.svg" alt="">
-                        <h5 class="card-title">Career Counselling</h5>
-                        <p class="card-text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut.
-                            Blanditiis quos in minus. Voluptatum </p>
-                        <a href="#" class="card-link">Learn More</a>
-                        <i class='bx bx-right-arrow-alt'></i>
-                    </div>
-                    
-                    <div class="card">
-                        <img src="./img/card_png/icon_5.svg" alt="">
-                        <h5 class="card-title">Career Counselling</h5>
-                        <p class="card-text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut.
-                            Blanditiis quos in minus. Voluptatum </p>
-                        <a href="#" class="card-link">Learn More</a>
-                        <i class='bx bx-right-arrow-alt'></i>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </section>
-
-        <!-- ------------------------NEWS -------------------->
-        <section>
-            <div class="container"> 
-              <!-- News title---------- -->
-                <div class="row n-title">
-                  <h2>News</h2>
-                  <!-- services post -->
-                   <p>Sunt autem nusquam hoc epicurus in gravissimo bello animadversionis metu degendae praesidia firmissima. Torquatos nostros? quos tu paulo ante cum teneam sententiam, quid bonum esse vult.</p>
-               </div>
-                <!----------News card------------->
-                <div class="n-box">
-                    <div class="card">
-                        <img src="./img/News/Rectangle_1.svg" alt="">
-                        <h5 class="card-title">Come On In. The Water’s Fine (Mostly).</h5>
-                    </div>
-                    
-                    <div class="card">
-                        <img src="./img/News/Rectangle_2.svg" alt="">
-                        <h5 class="card-title">Trump Lays Plans to Reverse Obama’s Climate Change </h5>
-                    </div>
-
-                    <div class="card">
-                        <img src="./img/News/Rectangle_3.svg" alt="">
-                        <h5 class="card-title">How a Little Bit of Hydra Regrows a Whole Animal</h5>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-</body>
-
-</html>
+                    </html>

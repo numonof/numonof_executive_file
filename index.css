@@ -1,17 +1,24 @@
 *{
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
 }
 body {
     margin: 0;
     padding: 0;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 50px;
 }
-
+/* ---------------------------------HEADER----------------------- */
 .header {
     padding: 15px;
     display: flex;
@@ -28,7 +35,7 @@ body {
     margin: 15px;
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
+    font-weight: 500;
     color: #373737;
    
     text-decoration: none;
@@ -45,6 +52,7 @@ body {
     padding-bottom: 16px;
     padding-left: 39px; */
 }
+/* -----------------------HOME------------- */
 .hero-s{
     height: 550px;
     overflow: hidden;
@@ -70,7 +78,7 @@ body {
     line-height: 66px;
 }
 .h-right span{
- color: #717CFF;
+    color: #717CFF;
 }
 
 .h-right p{
@@ -108,23 +116,17 @@ body {
 }
 /* ----------------LOGO_LIST-------------------------- */
 .logo-list {
+    text-align: center;
     color: #373737;
     margin-top: 30px;
 }
 .logo-list h2{
     text-transform: uppercase;
     margin-bottom: 60px;
-}
-  
-  
+} 
 ul{
-  list-style: none; 
-}
-  
-.logo-title{
-   text-align: center;
-}
-  
+    list-style: none; 
+} 
 .logo-content{
     display: flex;
     flex-flow: wrap row;
@@ -190,7 +192,7 @@ ul{
     margin: 0 10px 30px 10px;
 }
 .card{
-    width: 350px;
+    width: 332px;
     height: 100%;
     padding: 20px;
     background-color:#ffff;
@@ -217,8 +219,11 @@ ul{
     color: rgba(55, 71, 79, 0.721569);
 
 }
-
-.n-title h2 {
+/* ----------------------------------------NEW--------------------------------- */
+.new-container{
+    padding-bottom:90px;
+}
+.new-title h2 {
     font-weight: bold;
     text-align: center;
     font-family: serif;
@@ -226,7 +231,7 @@ ul{
     padding-top: 50px;
     color: #373737;
 }
-.n-title p{
+.new-title p{
     width: 850px;
     justify-content: center;
     text-align:center;
@@ -236,10 +241,171 @@ ul{
     color:#7d7d7d;
     line-height: 35px;
 }
-.n-box{
+.new-box{
     display: flex;
     flex-flow: wrap ;
     justify-content: space-around;
     align-items: center;
     padding: 25px;
+}
+.new-box img{
+    width: 335px;
+}
+.n-card{
+    width: 335px;
+    height: 100%;
+    padding: 15px;
+    background-color:#ffff;
+    align-items: center;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.16);
+    border-radius: 15px; 
+    box-sizing: content-box;
+}
+.new-card-title{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cal{   
+    display: flex;
+    flex-flow: wrap ;
+    justify-content: space-around;
+    align-items: center;
+}
+.new-card-title time{
+    font-size: 22px;
+     font-weight: 500;
+}
+/* ------------------------------Upcoming University Events----------------- */
+.unver-container{
+    padding: 35px;
+    background-color:  #F2F2F2;;
+}
+.uni-container{
+    display: flex;
+    flex-flow: wrap ;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10px 30px 10px;
+}
+
+.unver-title h2 {
+    font-weight: bold;
+    text-align: center;
+    font-family: serif;
+    font-size: 37px;
+    padding-top: 50px;
+    color: #373737;
+}.unver-title p{
+    width: 860px;
+    justify-content: center;
+    text-align:center;
+    font-size: 21px;
+    padding: 15px;
+    margin-left: 180px;
+    color:#7d7d7d;
+    line-height: 35px;
+}
+.uni-card{
+    width: 440px;
+    height: 100%;
+    padding: 25px;
+    background-color:#ffff;
+    align-items: center;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.16);
+    border-radius: 15px; 
+    box-sizing: content-box;
+}
+.uni-card-title{
+    display: flex;
+}
+.uni-card-title img{
+    width: 70px;
+    margin: 15px;
+    font-weight: 700;
+    font-size: 500;
+}
+/* -----------------------countries ------------------------*/
+.countries{
+    padding: 35px;
+    background-color:  #F2F2F2;   
+}
+.coun-title h2 {
+    font-weight: bold;
+    text-align: center;
+    font-family: serif;
+    font-size: 37px;
+    padding-top: 50px;
+    color: #373737;
+}.coun-title p{
+    width: 850px;
+    justify-content: center;
+    text-align:center;
+    font-size: 21px;
+    padding: 15px;
+    margin-left: 180px;
+    color:#7d7d7d;
+    line-height: 35px;
+}
+.coun-box{
+    display: flex;
+    flex-flow: wrap ;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 30px 10px;
+}
+.caun-card{
+    width: 350px;
+    box-sizing: content-box;
+    height: 100%;
+    background-color:#ffff;
+    align-items: center;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px; 
+}
+.caun-card img{
+    width: 348px;
+}
+.caun-card-title{margin-top: -25px;
+
+    padding: 30px;
+}
+
+.footer{
+    height: 346px;
+    background-color: #717CFF;
+    align-items: center;
+    justify-content: space-between;
+    padding: 55px;
+    margin: 25px;
+    display: flex;
+}
+.footer-text{
+    margin-top: 50px;
+     color: #EEEEEE;
+}
+.footer-date{
+    width: 343px;
+    margin-top: 45px;
+    color: #EEEEEE;
+
+}
+
+.footer-link li a{
+    font-size: 18px;
+    line-height: 49px;
+    color: #EEEEEE;
+}
+.blok{
+    width: 342px;
+}
+.blok p{
+    font-size: 18px;
+    line-height: 49px;
+    color: #EEEEEE;
+}
+.footer-bx{
+    margin-bottom: -165px;
 }
